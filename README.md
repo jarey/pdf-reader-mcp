@@ -7,6 +7,7 @@ A Model Context Protocol (MCP) server that provides tools for reading and extrac
 Philip Van de Walker  
 Email: philip.vandewalker@gmail.com  
 GitHub: https://github.com/trafflux
+Additional docs: https://playbooks.com/mcp/trafflux-pdf-reader
 
 ## Features
 
