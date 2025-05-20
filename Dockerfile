@@ -15,7 +15,7 @@
 # limitations under the License.
 
 # Use Python 3.11 slim image as base
-FROM python:3.11-slim
+FROM python:3.12-slim
 
 # Set working directory
 WORKDIR /app
@@ -25,9 +25,6 @@ RUN apt-get update && \
     apt-get install -y git && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
-
-# Install MCP SDK directly from GitHub repository
-RUN pip install git+https://github.com/modelcontextprotocol/python-sdk.git
 
 # Install project Python dependencies
 COPY requirements.txt .
